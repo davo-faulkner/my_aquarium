@@ -51,6 +51,14 @@ And this is an ordered list:
 #. Coke
 #. Pepsi
 
+Here is how you set up a link to another page:
+
+See the :doc:`changelog`.
+
+Here is how you set up a target/bookmark:
+
+.. _tutorialsection2:
+
 Section 2
 ---------
 
@@ -84,5 +92,9 @@ There is also a ``csv-table`` way to build tables (see the documentation).
 Here is how you insert an image:
 
 .. image:: https://davo.co/wp-content/uploads/2025/07/davo_headshot_150_70.webp
+
+Here is how you create a download link:
+
+Download the :download:`makefile <./make.bat>`
 
 .. _Python Docs: https://docs.python.org
