@@ -5,6 +5,9 @@ Tutorial
 
 .. contents::
 
+.. `sectionauthor` isn't rendered in output, but can be helpful for keeping track of things.
+.. sectionauthor:: David Faulkner <d@davo.co>
+
 Section 1
 ---------
 
@@ -34,10 +37,14 @@ And now, we're back to normal text again.
 
 The following method enables language-specific syntax highlighting:
 
-.. code::
+.. code-block:: python
 
     from datetime import datetime
+
     print(datetime.now())
+
+    for i in ranga(10):
+        pass
 
 And now, we're back to normal text again.
 
