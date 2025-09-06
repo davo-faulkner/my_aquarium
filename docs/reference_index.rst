@@ -14,8 +14,23 @@ Reference Index
 .. automodule:: my_aquarium.shrimp
     :members:
 
-Can't figure out how to get these links to work, yet:
+Intersphinx is an extension that can link to external sphinx documentation.
+
+Here are some Python intersphinx links:
 
 :mod:`asyncio`
 
 :class:`bool`
+
+:exc:`SyntaxError`
+
+:ref:`network IO and IPC <asyncio-streams>`
+
+...and here are some Sphinx intersphinx links:
+
+:ref:`sphinx:ref-role`
+
+:doc:`sphinx:usage/extensions/intersphinx`
+
+:doc:`Intersphinx <sphinx:usage/extensions/intersphinx>`
+

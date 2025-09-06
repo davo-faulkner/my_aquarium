@@ -19,9 +19,11 @@ release = '1.0'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-# Davo, this extensions automates documentation for the project:
+# Davo, these extensions automate documentation for the project and
+# linking to external Sphinx projects:
 extensions = [
     'sphinx.ext.autodoc',
+    "sphinx.ext.intersphinx",
 ]
 
 templates_path = ['_templates']
